@@ -1,0 +1,47 @@
+Pendientes de revisión/completar:
+
+1. Falta terminar string operations completos. 
+2. Falta repaso de toda la lección de regular expressions. 
+3. Falta terminar labs a partir de Lab-functional-programming.
+4. Me salté polite coding, retomar repaso.
+5. Me salté: Object Oriented Programming de las lecciones y apuntes oop basic y OOP y repasar/resolver )(lab-data-vikings)
+6. Leer: Common Python Errors (lecciones de plataforma)
+7. Extra Resources - Intermediate Python & OOP(lecciones de plataforma)
+8. Ver grabaciones
+9. Hacer práctica de Importing and Exporting Data
+
+
+
+
+
+
+
+
+
+
+PREGUNTAS: 
+1.
+Origen: Lab Lambda Function/Learning
+Pregunta: No entiendo este código.
+
+def generate_range(lower):
+    return lambda upper: range(lower, upper)
+    
+custom_range = generate_range(0)
+
+
+
+print (custom_range(10)) 
+print ([x for x in custom_range(10)])
+print ([x for x in custom_range(5)])
+
+2.
+Origen: Lab Lambda Function/Learning
+Pregunta: Tal vez esto sirva para donde quiero que imprima [0,2,0] ... donde estaba viendo lo del yield.
+
+
+square = lambda x: x * x
+squared = [square(x) for x in range(1, 10)]
+
+print(squared)
+
