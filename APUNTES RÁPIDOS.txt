@@ -1,7 +1,32 @@
 * Variable aleatoria discreta: puede asumir un número contable de valores. Ej: el número de hijos de una familia, las gotas que caen de una llave de agua
 * Variable aleatoria continua: puede asumir un número incontable de valores. Ej: el chorro que cae de una llave de agua
-* Densidad de probabilidad: función de densidad de probabilidad, pdf, pero es fdp (función de dp). Nos va a ayudar a calcular probabilidades referentes a variables continuas. 
+*Distribución binomial: éxito o fracaso que aplican a variables aleatorias discretas. 
+*Desviación estandar: medida que se utiliza para cuantificar la variación o la dispersión de un conjunto de datos numéricos.​ Ej. profundidad del río  https://www.youtube.com/watch?v=hLmsEFNaOgY
+Si es baja indica que la mayor parte de los datos de una muestra tienden a estar agrupados cerca de su media (también denominada el valor esperado),
+si es alta indica que los datos se extienden sobre un rango de valores más amplio.
+*Esperanza matemática: valor esperado de una variable aleatoria discreta. 
+*Intervalo de confianza: **Normalmente tenemos el dato de la desviación estandar, la media y la cantidad de la muestra, pero hay veces que esto no se cumple, y lo que hay
+es proporción, hay una probabilidad de que suceda algo y cambiamos la media por dicha probabilidad o proporción, esta probabilidad hace la misma "función" que la media... Un intervalo
+de confianza nos muestra de dónde a dónde puedo seleccionar algo que tenga un porcentaje de éxito superior al que yo le indique. Nos regresa dos números
+
+https://www.youtube.com/watch?v=YXLVjCKVP7U
+
+*Probability mass function PMF >> Discrete
+*Probability density function PDF >> Continuous 
+*Cumulative distribution function CDF >> Discretas y continuas
+
+*PDF : Densidad de probabilidad: (aplica para variables aleatorias continuas) https://www.youtube.com/watch?v=9IVwFXITokA función de densidad de probabilidad, pdf, pero es fdp (función de dp). Nos va a ayudar a calcular probabilidades referentes a variables continuas. 
 La probabilidad de que w sea un número exacto a, es cero, es imposible observar un valor exacto de una variable aleatoria continua. 
 Esta función no denota probabilidad, sólo nos sirve para integrarla
 En una variable aleatoria continua integramos, pues la probabilidad de un punto específico es cero. (Por el contrario en la probabilidad de una variable aleatoria discreta sumamos)
-*Distribución binomial: éxito o fracaso que aplican a variables aleatorias discretas. 
+Python: normal.pdf(0) NO ES LA PROBABILIDAD DE SACAR 0, SÓLO MARCA CÓMO ES LA CURVA (normal es conjunto de datos inventado)
+
+*PMF : Probability mass function: 
+Python: binom.pmf (5) La probabilidad de sacar 5 aguilas. Esta sí es una probabilidad exacta porque es para discretas.
+
+*CDF: *Función de densidad acumulada: desempeña el mismo papel para una variable continua que para el de una discreta, es decir  menciona la probabilidad de que nuestra variable
+aleatoria sea menor o igual a cierto valor, sin embargo la forma de obtenerla es diferente. En el caso de variable aleatoria discreta, utilizamos la función de probabilidad y para
+una variable aleatoria continua utilizamos la función de densidad. Si queremos la "probabilidad" de que una variable aleatoria continua sea menor o igual a cierto valor, 
+lo que hacemos es calcular el área bajo la curva de la función de densidad, desde menos infinito hasta el valor que queremos analizar https://www.youtube.com/watch?v=tXZ_pFKnUuw
+Python: binom.cdf(5) #Probabilidad de sacar por lo menos 5 águilas
+
