@@ -1,0 +1,7 @@
+* Variable aleatoria discreta: puede asumir un número contable de valores. Ej: el número de hijos de una familia, las gotas que caen de una llave de agua
+* Variable aleatoria continua: puede asumir un número incontable de valores. Ej: el chorro que cae de una llave de agua
+* Densidad de probabilidad: función de densidad de probabilidad, pdf, pero es fdp (función de dp). Nos va a ayudar a calcular probabilidades referentes a variables continuas. 
+La probabilidad de que w sea un número exacto a, es cero, es imposible observar un valor exacto de una variable aleatoria continua. 
+Esta función no denota probabilidad, sólo nos sirve para integrarla
+En una variable aleatoria continua integramos, pues la probabilidad de un punto específico es cero. (Por el contrario en la probabilidad de una variable aleatoria discreta sumamos)
+*Distribución binomial: éxito o fracaso que aplican a variables aleatorias discretas. 

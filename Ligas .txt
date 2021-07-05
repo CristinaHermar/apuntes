@@ -1,4 +1,7 @@
 CLASES: https://docs.google.com/spreadsheets/d/11I8TdKkUjZMiu9j4vDEM38IWutQ1yGws5PGj8g8qH5w/edit#gid=0
+CLASES PROPIO: https://docs.google.com/spreadsheets/d/1BEoDgUOVx9eW-3MaQxqoVR-BJqYdsjWqxkuCwNXBUZQ/edit#gid=0
+
+CONCEPTO DE DESVIACIÓN ESTANDAR: https://www.youtube.com/watch?v=hLmsEFNaOgY
 
 https://www.markdowntutorial.com/
 https://www.markdownguide.org/getting-started/
@@ -42,7 +45,7 @@ https://www.mongodb.com/try/download/compass
 
 https://docs.python.org/3/tutorial/venv.html
 
-https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
+AMBIENTES https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
 
 https://docs.python.org/3/library/urllib.request.html
 
@@ -52,3 +55,6 @@ https://matplotlib.org/stable/gallery/style_sheets/style_sheets_reference.html
 https://datos.cdmx.gob.mx/dataset/interrupcion-legal-del-embarazo
 https://github.com/vega/vega-datasets/tree/master/data
 https://www.twitch.tv/videos/1065615135
+
+https://www.dataquest.io/blog/free-datasets-for-projects/
+
