@@ -1,5 +1,7 @@
 * Variable aleatoria discreta: puede asumir un número contable de valores. Ej: el número de hijos de una familia, las gotas que caen de una llave de agua
 * Variable aleatoria continua: puede asumir un número incontable de valores. Ej: el chorro que cae de una llave de agua
+*Una variable discreta es una variable que no puede tomar algunos valores dentro de un mínimo conjunto numerable, 
+quiere decir, no acepta cualquier valor, únicamente aquellos que pertenecen al conjunto
 *Distribución binomial: éxito o fracaso que aplican a variables aleatorias discretas. 
 *Desviación estandar: medida que se utiliza para cuantificar la variación o la dispersión de un conjunto de datos numéricos.​ Ej. profundidad del río  https://www.youtube.com/watch?v=hLmsEFNaOgY
 Si es baja indica que la mayor parte de los datos de una muestra tienden a estar agrupados cerca de su media (también denominada el valor esperado),
@@ -30,3 +32,16 @@ una variable aleatoria continua utilizamos la función de densidad. Si queremos 
 lo que hacemos es calcular el área bajo la curva de la función de densidad, desde menos infinito hasta el valor que queremos analizar https://www.youtube.com/watch?v=tXZ_pFKnUuw
 Python: binom.cdf(5) #Probabilidad de sacar por lo menos 5 águilas
 
+
+*Para ordenar un DataFrame : df.sort_values() ó df.sort_index()
+*Para checar nullos en un DataFrame: df.isnull()
+
+*La covarianza mide la relación lineal entre dos variables. Aunque la covarianza es similar a la correlación entre dos variables, difieren de las siguientes maneras:
+*Los coeficientes de correlación están estandarizados. Por lo tanto, una relación lineal perfecta da como resultado un coeficiente de 1. La correlación mide tanto la 
+fuerza como la dirección de la relación lineal entre dos variables.
+* la covarianza es un valor que indica el grado de variación conjunta de dos variables aleatorias respecto a sus medias. Los valores de covarianza no están estandarizados. 
+Por consiguiente, la covarianza puede ir desde infinito negativo hasta infinito positivo. 
+Por lo tanto, el valor de una relación lineal perfecta depende de los datos. Puesto que los datos no están estandarizados, es difícil determinar la fuerza de la relación entre las variables.
+La covarianza negativa si una aumenta la otra disminuye, y en la positiva si una aumenta la otra aumenta
+
+*Por qué poner inplace: https://www.youtube.com/watch?v=XaCSdr7pPmY
