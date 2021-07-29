@@ -45,3 +45,21 @@ Por lo tanto, el valor de una relación lineal perfecta depende de los datos. Pu
 La covarianza negativa si una aumenta la otra disminuye, y en la positiva si una aumenta la otra aumenta
 
 *Por qué poner inplace: https://www.youtube.com/watch?v=XaCSdr7pPmY
+
+*Rcuadrada : https://www.youtube.com/watch?v=rTm5ZMjIKzM
+
+*Error cuadrático medio: https://www.youtube.com/watch?v=M0VgMg7jpRM
+
+*Underfitting vs Overfitting: https://www.youtube.com/watch?v=7-6X3DTt3R8
+
+*Pvalue: probabilidad de que ocurra un evento de forma al azar, tomando una premisa como cierta. (pvalue es un evento que
+puede tomar valores entre 0 y 1 nada más), al azar quiere decir que no exista una variable que condicione este evento, y 
+la premisa como cierta es una hipótesis que consideramos como cierta 
+
+*Hipótesis nula: es la afirmación contraria a lo que tomamos como hipótesis, a esta segunda la llamado hipótesis alternativa.
+*Pvalue: probabilidad de error de aceptar la hipótesis alternativa como cierta y que en realidad sea falsa. probabilidad
+de que la hipótesis nula sea verdadera. 
+
+*np.where: https://www.youtube.com/watch?v=erJ1ce2aHHY
+
+*loc : https://youtu.be/rOkHjUyED_I iloc se mete con números de columna y registros, loc con títulos y contenido
