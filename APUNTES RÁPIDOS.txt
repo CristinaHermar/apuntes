@@ -63,3 +63,28 @@ de que la hipótesis nula sea verdadera.
 *np.where: https://www.youtube.com/watch?v=erJ1ce2aHHY
 
 *loc : https://youtu.be/rOkHjUyED_I iloc se mete con números de columna y registros, loc con títulos y contenido
+
+*Precisión: relación entre el total de predicciones correctas y el número total de predicciones realizadas
+
+*Recall (también llamado sensitivity or the true positive rate) es el número de verdaderos positivos dividido por 
+todos aquellos resultados cuyo verdadero valor pertenece a la clase positiva (la suma de verdaderos positivos y falsos 
+negativos), podemos decir que es  es el  número de elementos relevantes (pacientes realmente enfermos) que se identificaron 
+correctamente. 
+
+*Precision (también llamado positive predictive value) número total de verdaderos positivos dividido por todos 
+los valores que predijimos que serían positivos (la suma de verdaderos positivos y falsos positivos). 
+La precisión mide qué porcentaje de sus predicciones son realmente relevantes
+Esta métrica es particularmente importante en los casos en que el costo de equivocarse en una predicción positiva 
+es particularmente alto. Por ejemplo, el sistema penal indio se basa en el concepto de lograr la mayor precisión posible, 
+tal como se resume en la máxima 'Que se absuelva a cien culpables, pero que no se condene a un inocente ». 
+
+*F1: 2*((precisión*recall)/(precisión+recall)) >> la puntuación F1 está delimitada entre 0 y 1, 
+siendo 1 la precisión y recall perfecta y 0 lo peor. Es una medida de la precisión general y es particularmente útil 
+en los casos en que la precisión y el recall son igualmente importantes. 
+
+
+*MAE (métrica de regresión) El error absoluto medio es  la media (media) del valor absoluto de la distancia entre los valores predichos y reales . 
+Es una medida de error absoluto: por ello, no sabemos si el algoritmo está  sobrestimando  o  subestimando  cuando es
+ incorrecto. Además, debido al valor absoluto, no es muy sensible a los valores atípicos, en comparación con otras métricas.
+
+*MSE (métrica de regresión) Regresar a tomar notas: https://my.ironhack.com/lms/courses/course-v1:IRONHACK+DAPT+202104_MEX/modules/c36289e68f4e4029a57c62cfbc5b8ec5/units/a287b53196aa4257961b80fc80fe7d61
